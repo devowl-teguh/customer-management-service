@@ -1,7 +1,7 @@
 "use client";
 
 import { portfolioData } from "@/data/portfolio-data";
-import { Briefcase, Calendar, MapPin, Users, Award, Code2 } from "lucide-react";
+import { Briefcase, Calendar, MapPin, Users } from "lucide-react";
 
 export function ExperienceSection() {
   const { experiences } = portfolioData;

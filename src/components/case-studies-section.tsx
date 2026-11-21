@@ -5,9 +5,6 @@ import { portfolioData } from "@/data/portfolio-data";
 import { ArchitectureCaseStudy } from "@/types/portfolio";
 import {
   Server,
-  Layers,
-  Zap,
-  Activity,
   Check,
   ChevronRight,
   TrendingUp,
