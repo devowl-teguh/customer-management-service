@@ -13,6 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://profesional-cv.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   title: "Teguh Hadi Pratama | Senior Backend Engineer & Tech Lead",
   description:
     "Portfolio and system architecture deep-dives of Teguh Hadi Pratama — Senior Backend Engineer & Tech Lead specializing in high-concurrency transactional systems, Kafka event streams, idempotency, and distributed microservices.",
@@ -34,7 +38,7 @@ export const metadata: Metadata = {
     title: "Teguh Hadi Pratama | Senior Backend Engineer & Tech Lead",
     description:
       "11+ years engineering high-volume loyalty, payment, and distributed transaction platforms.",
-    url: "https://github.com/devowl-teguh",
+    url: "/",
     siteName: "Teguh Hadi Pratama Portfolio",
     type: "website",
   },
